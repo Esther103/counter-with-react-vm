@@ -11,3 +11,111 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.bigcounter {
+    display: inline-block;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center !important;
+    background: black;
+    border-radius: 5px; 
+     box-shadow: 10px 10px 50px 5px  rgba(21, 218, 218, 0.671);
+}
+
+.bigcounter div{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    height: 125px;
+    background:#101010;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    font-size: 100px !important;
+
+    border-radius: 5px;
+   box-shadow: 10px 10px 50px  rgb(0,32,32);
+    border: 4px solid rgb(0,32,32);
+}
+
+.onedig{
+    width: 120px;
+    text-align: center !important;
+   // font-size: 100px !important;
+   
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+
+
+}
+
+.twodig{
+    width: 120px;
+    text-align: center;
+    //font-size: 100px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+        margin-top: 10px !important;
+
+}
+
+.threedig{
+    width: 120px;
+    text-align: center;
+    //font-size: 100px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+        margin-top: 10px !important;
+
+}
+
+.fourdig{
+width: 120px;
+    text-align: center;
+    //font-size: 100px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.fivedig{
+width: 120px;
+    text-align: center;
+    //font-size: 100px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+.sixdig{
+width: 120px;
+    text-align: center;
+    //font-size: 100px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+    margin-top: 15px !important;
+}
+
+
+.clockfi{
+    float: left;
+    width: 120px;
+    text-align: center;
+    //font-size: 100px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    
+
+
+}
+.clockfi i{
+    text-align: center !important;
+    margin-left: -10px !important;
+    margin-top: -5px !important;
+    display: inline-block !important;
+}
