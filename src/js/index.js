@@ -13,12 +13,6 @@ import "../styles/index.scss";
 //import your own components
 
 let counter = 0;
-Secondscounter.proptypes = {
-	digOne: PropTypes.number,
-	digTwo: PropTypes.number,
-	digThree: PropTypes.number,
-	digFour: PropTypes.number
-};
 
 setInterval(function() {
 	let six = Math.floor(counter / 100000);
