@@ -11,11 +11,10 @@ import "/workspace/simple-counter-with-react/src/styles/index.scss";
 export function Secondscounter(props) {
 	return (
 		<div className="container-fluid">
-			<div className="row justified-content">
+			<div className="row">
 				<div className="col bigcounter">
-					<div className="clockfi">
-						<i className="far fa-clock"></i>
-					</div>
+					<p className="far fa-clock"></p>
+
 					<div className="sixdig">{props.digSix % 10}</div>
 					<div className="fivedig">{props.digFive % 10}</div>
 
