@@ -1,5 +1,29 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+
+@font-face {
+  font-family: 'Digital-7';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.eot?#iefix') format('embedded-opentype'),  url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.ttf')  format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/Digital-7.svg#Digital-7') format('svg');font-weight: normal;font-style: normal;}
+::selection{background:#333;}::-moz-selection{background:#111;}
+*,html{margin:0;}
+body{background:#333}
+figure{width:210px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-105px;transform-style: preserve-3d;-webkit-transform-style: preserve-3d;-webkit-transform: rotateX(-35deg) rotateY(45deg);transform: rotateX(-35deg) rotateY(45deg);transition:2s;}
+figure:hover{-webkit-transform:rotateX(-50deg) rotateY(45deg);transform:rotateX(-50deg) rotateY(45deg);}
+.face{width:100%;height:100%;position:absolute;-webkit-transform-origin: center;transform-origin: center;background:#000;text-align:center;}
+p{font-size:180px;font-family: 'Digital-7';margin-top:20px;color:#2982FF;text-shadow:0px 0px 5px #000;-webkit-animation:color 10s infinite;animation:color 10s infinite;line-height:180px;}
+.front{-webkit-transform: translate3d(0, 0, 105px);transform: translate3d(0, 0, 105px);background:#111;}
+.left{-webkit-transform: rotateY(-90deg) translate3d(0, 0, 105px);transform: rotateY(-90deg) translate3d(0, 0, 105px);background:#151515;}
+.top{-webkit-transform: rotateX(90deg) translate3d(0, 0, 105px);transform: rotateX(90deg) translate3d(0, 0, 105px);background:#222;}
+
+@keyframes color{
+  0%{color:#2982ff;text-shadow:0px 0px 5px #000;}
+  50%{color:#cc4343;text-shadow:0px 0px 5px #ff0000;}
+}
+@-webkit-keyframes color{
+  0%{color:#2982ff;text-shadow:0px 0px 5px #000;}
+  50%{color:#cc4343;text-shadow:0px 0px 5px #ff0000;}
+}
+
 /* 
 
     You can write your own styles here...
@@ -20,39 +44,40 @@
     text-align: center !important;
     background: black;
     border-radius: 5px; 
-     box-shadow: 10px 10px 50px 5px  rgba(21, 218, 218, 0.671);
+     box-shadow: 10px 10px 70px 15px  rgba(21, 218, 218, 0.671);
+     border: 13px solid white;
 }
 
 .bigcounter div{
     display: inline-block;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 89px;
     height: 125px;
     background:#101010;
-    color: white;
+    color: rgba(21, 218, 218, 0.671);
     padding: 15px;
     margin: 15px;
     font-size: 100px !important;
-
     border-radius: 5px;
-   box-shadow: 10px 10px 50px  rgb(0,32,32);
-    border: 4px solid rgb(0,32,32);
+    box-shadow: 10px 10px 50px  rgba(21, 218, 218, 0.671);
+    border: 5px solid rgba(0, 43, 43, 0.671);
+   font-family: "Digital-7";
+  
 }
-
 .onedig{
     width: 120px;
-    text-align: center !important;
    // font-size: 100px !important;
-   
+    
     margin-bottom: 10px !important;
     margin-top: 10px !important;
-
-
+    
 }
+
+
+
 
 .twodig{
     width: 120px;
-    text-align: center;
     //font-size: 100px !important;
     align-content: center !important;
     justify-content: center !important;
@@ -63,7 +88,6 @@
 
 .threedig{
     width: 120px;
-    text-align: center;
     //font-size: 100px !important;
     align-content: center !important;
     justify-content: center !important;
@@ -74,7 +98,6 @@
 
 .fourdig{
 width: 120px;
-    text-align: center;
     //font-size: 100px !important;
     align-content: center !important;
     justify-content: center !important;
@@ -84,7 +107,6 @@ width: 120px;
 
 .fivedig{
 width: 120px;
-    text-align: center;
     //font-size: 100px !important;
     align-content: center !important;
     justify-content: center !important;
@@ -93,7 +115,6 @@ width: 120px;
 }
 .sixdig{
 width: 120px;
-    text-align: center;
     //font-size: 100px !important;
     align-content: center !important;
     justify-content: center !important;
@@ -105,17 +126,17 @@ width: 120px;
 .clockfi{
     float: left;
     width: 120px;
-    text-align: center;
     //font-size: 100px !important;
     align-content: center !important;
     justify-content: center !important;
-    
+    font-family: "Digital-7";
 
 
 }
 .clockfi i{
-    text-align: center !important;
     margin-left: -10px !important;
     margin-top: -5px !important;
     display: inline-block !important;
+       
+
 }
