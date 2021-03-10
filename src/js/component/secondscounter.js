@@ -8,24 +8,24 @@ import "bootstrap";
 //include your index.scss file into the bundle
 import "/workspace/simple-counter-with-react/src/styles/index.scss";
 
-Secondscounter.proptypes = {
-	digOne: PropTypes.number,
-	digTwo: PropTypes.number,
-	digThree: PropTypes.number,
-	digFour: PropTypes.number,
-	digFive: PropTypes.number,
-	digSix: PropTypes.number
-};
-<Secondscounter
-	digOne={0}
-	digTwo={0}
-	digThree={0}
-	digFour={0}
-	digFive={0}
-	digSix={0}
-/>;
-
 export function Secondscounter(props) {
+	Secondscounter.proptypes = {
+		digOne: PropTypes.number,
+		digTwo: PropTypes.number,
+		digThree: PropTypes.number,
+		digFour: PropTypes.number,
+		digFive: PropTypes.number,
+		digSix: PropTypes.number
+	};
+	<Secondscounter
+		digOne={0}
+		digTwo={0}
+		digThree={0}
+		digFour={0}
+		digFive={0}
+		digSix={0}
+	/>;
+
 	return (
 		<div className="container-fluid">
 			<div className="row">
