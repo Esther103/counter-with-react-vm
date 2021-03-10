@@ -28,7 +28,7 @@ export function Secondscounter(props) {
 	);
 }
 
-Secondscounter.proptypes = {
+Secondscounter.propTypes = {
 	digOne: PropTypes.number,
 	digTwo: PropTypes.number,
 	digThree: PropTypes.number,
@@ -36,11 +36,3 @@ Secondscounter.proptypes = {
 	digFive: PropTypes.number,
 	digSix: PropTypes.number
 };
-<Secondscounter
-	digOne={0}
-	digTwo={0}
-	digThree={0}
-	digFour={0}
-	digFive={0}
-	digSix={0}
-/>;
