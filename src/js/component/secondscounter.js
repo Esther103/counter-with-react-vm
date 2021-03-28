@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import "bootstrap";
 
 //include your index.scss file into the bundle
-import "/workspace/simple-counter-with-react/src/styles/index.scss";
+import "/workspace/counter-with-react-vfinal/src/styles/index.scss";
 
 export function Secondscounter(props) {
 	return (
